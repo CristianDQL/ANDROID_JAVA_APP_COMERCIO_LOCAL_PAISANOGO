@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.proyectopaisanogo.Presentation.FragmentLogin">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fondo_1"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/icon_size_medium"
+            android:src="@drawable/paisano"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/buttonCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/icon_size_medium"
+            android:background="@color/blue"
+            android:text="@string/cliente"
+            android:textColor="@color/white"
+            android:textSize="@dimen/buttom_letter"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:forceDarkAllowed="true"
+            android:padding="10dp"
+            android:text="@string/eres_cliente_o_empresa_largo"
+            android:textAlignment="center"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/letter_big"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+
+        <Button
+            android:id="@+id/buttonEmpresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/icon_size_medium"
+            android:background="@color/blue"
+            android:text="@string/empresa"
+            android:textColor="@color/white"
+            android:textSize="@dimen/buttom_letter"
+            tools:ignore="TextContrastCheck" />
+
+    </LinearLayout>
+</FrameLayout>

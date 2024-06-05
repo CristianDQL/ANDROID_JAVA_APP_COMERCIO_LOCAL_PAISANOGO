@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu">
+
+
+       <item
+           android:id="@+id/calendar"
+           android:title="@string/agenda"/>
+
+       <item
+           android:id="@+id/setting"
+           android:title="@string/configuración"/>
+
+       <item
+           android:id="@+id/logout"
+           android:title="@string/logout"/>
+
+</menu>

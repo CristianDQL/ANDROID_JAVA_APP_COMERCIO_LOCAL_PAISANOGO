@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.proyectopaisanogo.Presentation.Cliente.RegistroCliente">
+
+<androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarRegistroCliente"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimaryDark"
+        android:titleTextColor="@color/white"
+        android:subtitleTextColor="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="146dp"
+            android:layout_height="141dp"
+            android:layout_margin="@dimen/size_extra_small"
+            android:src="@drawable/paisano"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textViewRegistroCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/icon_size_medium"
+            android:text="@string/registro_clientes"
+            android:textAlignment="center"
+            android:textColor="@color/amarillo"
+            android:textSize="@dimen/letter_big" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextUsuarioCliente"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/icon_size_large"
+            android:hint="@string/usuario"
+            android:layout_margin="@dimen/size_extra_extra_small"
+            android:inputType="text"
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:id="@+id/editTextPasswordCliente"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/icon_size_large"
+            android:layout_margin="@dimen/size_extra_extra_small"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:id="@+id/editTextPhoneCliente"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/icon_size_large"
+            android:layout_margin="@dimen/size_extra_extra_small"
+            android:hint="@string/telefono"
+            android:inputType="phone"
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:id="@+id/editTextEmailCliente"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/icon_size_large"
+            android:layout_margin="@dimen/size_extra_extra_small"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:id="@+id/editTextDireccionCLiente"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/icon_size_large"
+            android:layout_margin="@dimen/size_extra_extra_small"
+            android:hint="@string/direccion"
+            android:inputType="textEmailAddress"
+            tools:ignore="Autofill" />
+
+        <EditText
+            android:id="@+id/editTextCpCliente"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/icon_size_large"
+            android:layout_margin="@dimen/size_extra_extra_small"
+            android:hint="@string/codigo_postal"
+            android:inputType="textPostalAddress"
+            tools:ignore="Autofill" />
+
+        <Button
+            android:id="@+id/buttonResgistroCliente"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/icon_size_large"
+            android:layout_marginStart="@dimen/icon_size_medium"
+            android:layout_marginEnd="@dimen/icon_size_medium"
+            android:backgroundTint="@color/blue"
+            android:text="@string/registrarse"
+            android:textColor="@color/white"
+            android:textSize="@dimen/buttom_letter" />
+
+    </LinearLayout>
+
+</LinearLayout>
